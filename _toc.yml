@@ -1,0 +1,23 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: README
+parts:
+- caption: 基础篇
+  numbered: true
+  chapters:
+  - file: 开发环境设置
+  - file: 变量与数据类型
+  - file: 输入与输出
+  - file: 控制流
+  - file: 函数
+  - file: 错误和异常
+  - file: 类
+- caption: 中级篇
+  numbered: true 
+  chapters:
+  - file: Python工程实践/Python工程实践工具
+  - file: Python工程实践/PIP使用指南
+  - file: 协程编程
+  - file: 魔术方法
